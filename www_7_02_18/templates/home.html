@@ -1,0 +1,211 @@
+<ion-view hide-back-button="true">
+	<ion-nav-bar class="bar bar-header bar-assertive"  align-title="center">
+		<ion-nav-buttons side="left">
+			<a class="button button-icon button-clear ion-navicon" menu-toggle="left" ng-click="toggleLeft()"></a>
+			<!-- <img src="img/smtlogo.png" width="30%"> -->
+		</ion-nav-buttons>
+		 <ion-nav-title>
+				<!-- <img width="30%" src="img/smtlogo.png"> -->
+				<h1 class="title" style="padding-top:8px;"><img class="title-image" src="img/smtlogo.png" width="30%" height="30" /></h1>
+			</ion-nav-title> 
+			
+		
+		<ion-nav-buttons side="right" class="search">
+				<button class="button button-icon icon ion-ios-search-strong" ng-click="showSearchBar()"></button>
+		
+				<i class="ion-ios-cart" style="font-size:20px; padding: 10px 10px;"></i>
+		
+		</ion-nav-buttons>
+	</ion-nav-bar>
+
+  <ion-content class="scroll-content-login">
+	  <div class="row headerImage">
+			<div class="col" style="float:left;margin: -10px 0;">
+					<img src="img/icons/powertool.png">
+				</div>
+				<div class="col" style="float:left;margin: -10px 0;" >
+						<img src="img/icons/weldingtool.png">
+				</div>
+				<div class="col" style="float:left;margin: -10px 0;" >
+						<img src="img/icons/Airtools.png">
+				</div>
+				<div class="col" style="float:left;margin: -10px 0;" >
+						<img src="img/icons/compresortool.png">
+				</div>
+				<div class="col" style="float:left;margin: -10px 0;">
+						<img src="img/icons/gardentool.png">
+				</div>
+				<div class="col" style="float:left;margin: -10px 0;">
+						<img src="img/icons/handtool.png">
+				</div>
+
+	  </div>
+	  <!-- <div class="row">
+		<div class="col">
+			<ion-slides slider="swiper" options="swiperOptions">
+				<ion-slide-page><h1>jsahd</h1></ion-slide-page>
+				<ion-slide-page><h1>jsahd</h1></ion-slide-page>
+				<ion-slide-page><h1>jsahd</h1></ion-slide-page>
+				<ion-slide-page><h1>jsahd</h1></ion-slide-page>
+				<ion-slide-page><h1>jsahd</h1></ion-slide-page>
+			</ion-slides>
+		</div>
+	  </div> -->
+	  <div class="slidericon">
+		<div class="row" style="background-color:#0693bb">
+			<div class="col col-50">
+					<ion-slide-box class="mainSlider" auto-play="false" does-continue="true">
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/b.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/m.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/b.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/m.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/m.png">
+						</ion-slide>
+					</ion-slide-box> 
+			</div>
+			<div class="col col-50">
+					<ion-slide-box class="mainSlider" auto-play="false" direction="left" does-continue="true">
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/m.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/m.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="img/big-sale1.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="img/big-sale1.png">
+						</ion-slide>
+						<ion-slide class="mainSlides">
+							<img style="width: 100%" src="img/big-sale1.png">
+						</ion-slide>
+					</ion-slide-box> 
+			</div>
+			
+		</div>
+	  </div>
+		<div class="row">
+				<div class="col">
+					<label style="color:#0487a1">Top Brands</label>
+				</div>
+			</div>
+		
+				<div style="background-color:#0487a1;padding-bottom: 4px;padding-top: 2px;">
+					<div class="marquee" id="mycrawler" style="height:60px;">
+							<img class="" src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/6107257638_nortan_brand_logos_195x95.png" style="height:60px;margin-right:10px;"/>
+								<img class="" src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/1560839758_bosh_brand_logos_195x95.png" style="height:60px;margin-right:10px;"/>
+								<img class="" src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/5930071685_dewalt_brand_logos_195x95.png" style="height:60px;margin-right:10px;"/>
+									<img class="" src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/5588110862_good_year_195x95.png" style="height:60px;margin-right:10px;"/>
+					</div>
+				</div>
+
+		<div class="row">
+			<div class="col">
+				<label style="color:#0487a1">Best Deals</label>
+			</div>
+		</div>
+		<div class="row slidericon" style="background-color:#0487a1">
+				<div class="col col-50">
+						<ion-slide-box class="mainSlider" auto-play="false" does-continue="true">
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/r2.png">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/r2.png">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/r2.png">
+								</ion-slide>
+								
+							</ion-slide-box>
+					
+				</div>
+				<div class="col col-50">
+						<ion-slide-box class="mainSlider" auto-play="false" does-continue="true">
+							<ion-slide class="mainSlides">
+								<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/r2.png">
+							</ion-slide>
+							<ion-slide class="mainSlides">
+								<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/r2.png">
+							</ion-slide>
+							<ion-slide class="mainSlides">
+								<img style="width: 100%" src="http://shopmytools.tifk2ao.maxcdn-edge.com/media/coupons/r2.png">
+							</ion-slide>
+							</ion-slide-box>
+					
+				</div>
+		</div>
+		<div class="row" style="padding-top:5px;">
+				<div class="col">
+					<label style="color:#0487a1">Emerging Brands</label>
+				</div>
+			</div>
+			<div style="background-color:#0487a1;padding-bottom: 4px;padding-top: 2px;">
+				<div class="marquee" id="mycrawler" style="height:60px;">
+						<img src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/5160111568_gray_tool.png" style="height:60px;margin-right:10px;"/> 
+						<img src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/3113566801_neo_195x95.png" style="height:60px;margin-right:10px;"/>
+							<img src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/5364216708_mebote_brand_logos_195x95.png" style="height:60px;margin-right:10px;"/>
+							<img src="https://shopmytools-tifk2ao.netdna-ssl.com/media/Manufacturer/6107257638_nortan_brand_logos_195x95.png" style="height:60px;margin-right:10px;"/>
+				</div>
+			</div>
+
+		<div class="row">
+				<div class="col">
+					<label style="color:#0487a1">Best Offers</label>
+				</div>
+			</div>
+		<div class="row slidericon" style="background-color:#0693bb">
+				<div class="col col-50">
+						<ion-slide-box class="mainSlider" auto-play="false" does-continue="true">
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+							</ion-slide-box>
+					
+				</div>
+				<div class="col col-50">
+						<ion-slide-box class="mainSlider" auto-play="false" does-continue="true">
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+								<ion-slide class="mainSlides">
+									<img style="width: 100%" src="http://shopmytools-tifk2ao.netdna-ssl.com/media/thumbnail/gif/Electric_Drill_Powertex_PPT-ED-6-H.gif">
+								</ion-slide>
+							</ion-slide-box>
+					
+				</div>
+		</div>
+    
+  </ion-content>
+</ion-view>

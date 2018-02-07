@@ -1,0 +1,125 @@
+
+
+.btn-cls {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.item  {
+    border-color: transparent;
+   background-color: transparent;
+}
+
+
+
+.center {
+    text-align: center;
+}
+.error{
+    color: red;
+}
+
+.item-floating-label .input-label {
+    color: white;
+}
+
+.form-margin{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+.border-bottom1 {
+    border-bottom: 1px solid white;
+}
+
+.border-bottom1-error {
+    border-bottom: 1px solid red;
+}
+
+
+.custom-login-label input[type]{
+    margin-left: 20px;
+}
+.custom-login-label i {
+    position: absolute;
+    bottom: 12px;
+}
+
+.btn-size {
+    min-height: 30px;
+    line-height: 0px;
+    border-radius: inherit;
+}
+
+.btn-pad {
+    padding: 0px 25px 0px 25px;
+}
+
+.button.button-fbclr {
+    border-color: transparent;
+    background-color: #0b3a88;
+    color: #fff; }
+
+
+.forgot-pswd{
+    float: right;
+    padding-top: 5px;
+    color: white;
+}
+
+.p-top20{
+    padding-top: 20%;
+}
+.p-left10 {
+    padding-left: 10px;
+}
+
+.placeholder-icon {
+    color: white;
+}
+
+.signup-icon {
+    float: right;
+    margin-right: 40px;
+    color: white;
+}
+.signup-icon-size {
+    font-size: 30px;
+}
+
+.f-right{
+    float: right;
+}
+
+/* Rgistrtion Page CSS */
+
+.reg-form-margin {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+
+
+/*Menu */
+
+.bar.bar-stable {
+    background-color:#085662;
+  }
+  
+
+  .white-bgclr {
+      background-color: white;
+  }
+
+  .bar {
+      height: 55px;
+  }
+
+  .profile-name {
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #0489a2;
+  }

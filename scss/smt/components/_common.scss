@@ -1,0 +1,11 @@
+
+
+.common{/* Empty. Add your own CSS if you like */
+    [nav-bar-transition="android"] [nav-bar="active"] .bar, [nav-bar-transition="android"] [nav-bar="entering"] .bar {
+        background: #0a9dc7;
+    }
+
+    .bar.bar-assertive {
+        border-color: #0a9dc7;
+    }
+}

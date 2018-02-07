@@ -1,0 +1,163 @@
+/* Empty. Add your own CSS if you like */
+
+body {
+    /* font-family: 'Alef'; */
+ 
+}
+
+.scroll-content-login {
+    background: url("../img/catlog.png");
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #0489a2;
+  }
+
+  .scroll-content-menu {
+    /* background: url("../img/catlog.png"); */
+    /* width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-color: #085662;
+  }
+
+  .bar .buttons .hide {
+    display: block !important;
+}
+
+  /* .item-complex .item-content, .item-radio .item-content {
+    background-color: #0489a2;
+  } */
+
+
+  *::-webkit-input-placeholder {
+    color: white !important;
+  }
+  *:-moz-placeholder {
+    color: white !important;
+  }
+  *:-ms-input-placeholder { /* IE10+ */
+    color: white !important;
+  }
+
+/* button-txt */
+  /* .button {
+      color: #0489a2 !important;
+  } */
+
+  .white-clr {
+      color:white !important;
+  }
+  
+
+  /* Home */
+
+  .bar.bar-assertive{
+    background-color: #0489a2 !important;
+    border-color: #0489a2 !important;
+}
+
+
+
+/* i{
+    font-size: 66%;
+}; */
+
+
+  
+/* Menu */
+
+.menu-bgclr {
+  background-color:transparent !important;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.cat-top-left {
+  position: absolute;
+  top: 59px;
+  left: 33px;
+}
+
+.prod-top-right {
+  position: absolute;
+  top: 59px;
+  right: 33px;
+}
+
+.brand-top-left {
+  position: absolute;
+  top: 59px;
+  left: 40px;
+}
+
+.deals-top-right {
+  position: absolute;
+  top: 59px;
+  right: 44px;
+}
+
+.menu-list-coupon {
+  position: absolute;
+  top: 50px;
+  left: 54px;
+}
+
+.coupon-top-left {
+  position: absolute;
+  top: 70px;
+  left: 36px;
+}
+
+.orders-top-right {
+  position: absolute;
+  top: 70px;
+  right: 40px;
+}
+
+.menu-orders-count {
+  position: absolute;
+  top: 50px;
+  right: 56px;
+}
+
+.top-left {
+  position: absolute;
+  top: 59px;
+  left: 29px;
+}
+
+.top-right {
+  position: absolute;
+  top: 59px;
+  right: 30px;
+}
+
+
+
+
+.menu-list {
+  position: absolute;
+  top: 70px;
+  left: 33px;
+}
+
+.menu-pad {
+  padding: 0px 16px 0px 16px;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: white
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}

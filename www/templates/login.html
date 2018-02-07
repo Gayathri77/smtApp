@@ -1,0 +1,59 @@
+<ion-view view-title="Login">
+  <!-- <ion-header-bar>
+    <h1 class="title">Login</h1>
+  </ion-header-bar> -->
+  <ion-content class="scroll-content-login">
+
+    <div class="center p-top20">
+      <img src="img/smtlogo.png" width="100px">
+    </div>
+
+
+
+    <div class="list form-margin">
+      <form name="loginForm" novalidate>
+        <label class="item item-input item-floating-label custom-login-label border-bottom1" ng-class="{ 'border-bottom1-error' : loginForm.username.$invalid && !loginForm.username.$pristine }">
+          <i class="icon ion-android-person placeholder-icon"></i>
+          <span class="input-label">Email / Mobile</span>
+          <input type="text" placeholder="Username" name="username" ng-model="loginData.username" required>
+        </label>
+        <!-- <span class="error" ng-show="loginForm.username.$dirty &&loginForm.username.$invalid" class="ng-hide">
+          Please Enter Valid Email/Phone.
+        </span> -->
+
+
+
+        <label class="item item-input item-floating-label custom-login-label border-bottom1" ng-class="{ 'border-bottom1-error' : loginForm.password.$invalid && !loginForm.password.$pristine }">
+          <i class="icon ion-android-lock placeholder-icon"></i>
+          <span class="input-label">Password</span>
+          <input type="text" placeholder="Password" name="password" ng-model="loginData.password" required>
+        </label>
+        <!-- <span class="error"  ng-show="loginForm.password.$dirty &&loginForm.password.$invalid" class="ng-hide">
+          Please Enter Valid Password.
+        </span> -->
+
+        <span class="forgot-pswd">Forgot Password?</span>
+
+
+        <div class="btn-cls">
+          <button class="button button-light btn-size btn-pad" type="submit" ng-disabled="loginForm.$invalid" ng-click="login(loginData)">
+            Login
+          </button>
+          <br>
+          <br>
+          <button class="button button-fbclr btn-size white-clr" type="submit">
+            Facebook
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="signup-icon" ng-click="gotoRegistration()">
+      <i class="ion-person-add placeholder-icon p-left10 signup-icon-size"></i>
+      <p class="">Signup</p>
+    </div>
+
+
+
+  </ion-content>
+</ion-view>

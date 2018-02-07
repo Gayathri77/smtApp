@@ -1,0 +1,46 @@
+/* Empty. Add your own CSS if you like */
+.bar.bar-assertive{
+    background-color: #0487a1 !important;
+    border-color: #0487a1 !important;
+}
+
+
+
+.slidericon i{
+    font-size: 66%;
+}
+.mainPageSubHeader{
+	height: 60px;
+background-color: rgb(0,137,161);
+border-color:rgb(0,137,161) !important;
+border-top-color:rgb(0,137,161) !important;
+box-shadow: -4px 12px 30px -8px rgba(0,0,0,0.5);
+border-bottom-left-radius: 5%;
+border-bottom-right-radius: 5%;
+}
+
+.headerImage img{
+	width: 70%;
+}
+
+/* .searchbar .bar .button.button-icon.icon-right:before, .bar button.button-icon .icon:before, .bar button.button-icon:before, .bar button.button-icon.icon-left:before, .bar button.button-icon.icon-right:before {
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 42px; 
+} */
+.search .bar .button.button-icon .icon:before, .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before, .bar button.button-icon .icon:before, .bar button.button-icon:before, .bar button.button-icon.icon-left:before, .bar button.button-icon.icon-right:before {
+    vertical-align: top;
+    font-size: 24px;
+    line-height: 42px;
+}
+.scroll-content-login {
+    background: url("../img/catlog2.png");
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+  }
+  
+
+
